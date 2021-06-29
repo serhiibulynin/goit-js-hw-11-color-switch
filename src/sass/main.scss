@@ -1,7 +1,23 @@
-/*
- * Главный файл стилей.
- * Все паршалы подключаются сюда.
- */
+* {
+  margin: 0;
+  padding: 0;
 
-// Стили для файла с примером HTML-фрагмента
-@import './example';
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */
+  -khtml-user-select: none; /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+}
+
+#panel {
+  text-align: center;
+
+  button {
+    margin: 20px;
+    cursor: pointer;
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+}
